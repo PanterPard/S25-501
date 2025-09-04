@@ -1,0 +1,17 @@
+body {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center
+}
+
+h2 {
+    text-align: center;
+}
+
+ol, ul {
+    padding-top: 8px;
+    padding-bottom: 8px;
+} 
