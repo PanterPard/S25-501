@@ -1,17 +1,52 @@
+html {
+    font-size: 1em;
+}
+
 body {
     color: #000000;
     background-color: #ffffff;
 }
 
 h1 {
-    text-align: center
+    text-align: center;
 }
 
 h2 {
     text-align: center;
 }
 
-ol, ul {
-    padding-top: 8px;
-    padding-bottom: 8px;
-} 
+hr {
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.subject {
+    margin: 8px 0px;
+}
+
+.book {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+
+.book p {
+    margin: 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 16px);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 8px 0px 8px;
+}
